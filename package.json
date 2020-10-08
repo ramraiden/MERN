@@ -1,0 +1,27 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Learning Management System",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server",
+    "server":"nodemon server"
+  },
+  "author": "Ramkumar",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "err": "^2.1.12",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravator": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
