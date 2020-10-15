@@ -1,5 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
+const cors = require('cors');
 
 const app=express();
 
@@ -7,6 +8,7 @@ connectDB();
 //middleware
 app.use(express.json({extended:false}));
 app.use(express.urlencoded());
+app.use(cors({ origin: true }));
 
 //define routes
 app.use('/api/users',require('./config/routes/api/users'));

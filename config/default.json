@@ -1,3 +1,4 @@
 {
-"mongoURI":"mongodb+srv://ram:ram@mernproject.adt24.mongodb.net/?retryWrites=true&w=majority"
+"mongoURI":"mongodb+srv://ram:ram@mernproject.adt24.mongodb.net/?retryWrites=true&w=majority",
+"jwtSecret":"mysecrettoken"
 }
